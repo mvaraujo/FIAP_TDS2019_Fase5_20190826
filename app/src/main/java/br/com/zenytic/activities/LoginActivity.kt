@@ -15,6 +15,9 @@ import android.view.View
 import br.com.zenytic.R
 import br.com.zenytic.helpers.InputValidation
 import br.com.zenytic.sql.DatabaseHelper
+import io.github.rybalkinsd.kohttp.dsl.httpGet
+import io.github.rybalkinsd.kohttp.ext.url
+import okhttp3.Response
 
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
