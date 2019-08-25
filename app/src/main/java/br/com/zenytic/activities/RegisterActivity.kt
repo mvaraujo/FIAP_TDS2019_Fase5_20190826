@@ -32,7 +32,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var textInputEditTextConfirmPassword: TextInputEditText
 
     private lateinit var appCompatButtonRegister: AppCompatButton
-    private lateinit var appCompatTextViewLoginLink: AppCompatTextView
+    private lateinit var appCompatTextViewLoginLink: AppCompatButton
 
     private lateinit var inputValidation: InputValidation
     private lateinit var databaseHelper: DatabaseHelper
@@ -73,7 +73,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
 
         appCompatButtonRegister = findViewById<View>(R.id.appCompatButtonRegister) as AppCompatButton
 
-        appCompatTextViewLoginLink = findViewById<View>(R.id.appCompatTextViewLoginLink) as AppCompatTextView
+        appCompatTextViewLoginLink = findViewById<View>(R.id.appCompatTextViewLoginLink) as AppCompatButton
 
     }
 
